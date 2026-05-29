@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: stock-manager
+  datasource:
+    url: jdbc:mysql://localhost:3306/stock_manager
+    username: root
+    password: edutop99
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: eduardorenner062@gmail.com
+    password: icdq refu yipq rcsx
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+app:
+  email:
+    destinatario: djduds02@gmail.com
